@@ -66,3 +66,43 @@ button:focus-visible {
     background-color: #f9f9f9;
   }
 }
+
+.list{
+
+display: flex;
+flex-direction:row ;
+justify-content: center;
+flex-wrap: wrap;
+border: 1px solid white;
+padding: 20px;
+
+
+
+}
+
+#person{
+display: flex;
+justify-content: space-around;
+flex-direction: column;
+border: 1px solid white;
+padding: 40px;
+margin: 40px;
+width: 140px;
+
+}
+
+img  {
+  
+  display:flex;
+  padding: 10px;
+  height: 90px;
+  width: 90px;
+ 
+ 
+  
+}
+
+.Calculadora {
+  place-items: center;
+  padding: 50px;
+}
