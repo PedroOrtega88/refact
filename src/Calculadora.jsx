@@ -42,12 +42,12 @@ function Calculadora() {
           />
           
           <br/>
-          <button type="button" onClick={suma}>sumar</button>
-          <button type="button" onClick={resta}>restar</button>
-          <button type="button" onClick={multiplicar}>multiplicar</button>
-          <button type="button" onClick={dividir}>dividir</button>
+          <button type="button" onClick={suma}>Sumar</button>
+          <button type="button" onClick={resta}>Restar</button>
+          <button type="button" onClick={multiplicar}>Multiplicar</button>
+          <button type="button" onClick={dividir}>Dividir</button>
           </form>
-        <p>{resultado}</p>
+        <p>RESULTADO =  {resultado}</p>
       </div>   
   )}
   
